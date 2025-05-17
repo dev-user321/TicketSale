@@ -1,0 +1,32 @@
+﻿@model RegisterVm
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qeydiyyat</title>
+    <link rel="stylesheet" href="~/css/login_page.css"/>
+</head>
+<body class="auth-body">
+    <div class="auth-container">
+        <h2>Qeydiyyat</h2>
+        <form asp-controller="Account" asp-action="Register" enctype="multipart/form-data" method="post">
+            @* <div asp-validation-summary="All"></div> *@
+            <input type="text" placeholder="Full Name" asp-for="FullName" required>
+            <span style="color:Red" asp-validation-for="FullName"> </span>
+            <input type="text" placeholder="Username" asp-for="Username" required>
+            <span style="color:Red" asp-validation-for="Username"> </span>
+            <input type="email" placeholder="Email" asp-for="Email" required>
+            <span style="color:Red" asp-validation-for="Email"> </span>
+            <input type="password" placeholder="Şifrə" asp-for="Password" required>
+            <span style="color:Red" asp-validation-for="Password"> </span>
+
+            <button type="submit">Qeydiyyatdan keç</button>
+            <p class="link-text">Hesabın var? <a asp-controller="Account" asp-action="Login">Giriş et</a></p>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+﻿@model EnterEmailVm
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Şifrəni Bərpa Et</title>
+    <link rel="stylesheet" href="~/css/enter_email_page.css"/>
+</head>
+<body>
+    <div class="container">
+        <h2>Şifrəni Bərpa Et</h2>
+        <form asp-controller="Account" asp-action="EnterEmail" enctype="multipart/form-data" method="post">
+            <label for="email">Email ünvanı</label>
+            <input type="email" asp-for="Email" placeholder="Emailinizi daxil edin" required />
+            <button type="submit">Təsdiqlə</button>
+        </form>
+        <a asp-controller="Account" asp-action="Login" class="back-link">Girişə qayıt</a>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,28 @@
+﻿@model LoginVm
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş</title>
+    <link rel="stylesheet" href="~/css/login_page.css" />
+</head>
+<body class="auth-body">
+    <div class="auth-container">
+        <h2>Giriş</h2>
+        <form asp-controller="Account" asp-action="Login" enctype="multipart/form-data" method="post">
+            <input type="text" placeholder="İstifadəçi adı" asp-for="Email" required>
+            <span asp-validation-for="Email"></span>
+            <input type="password" placeholder="Şifrə" asp-for="Password" required>
+            <span asp-validation-for="Password"></span>
+
+            <a asp-controller="Account" asp-action="EnterEmail" class="forgot-link">Şifrəni unutdun?</a> 
+            <button type="submit">Daxil ol</button>
+            <p class="link-text">Hesabın yoxdur? <a asp-controller="Account" asp-action="Register">Qeydiyyatdan keç</a></p>
+        </form>
+    </div>
+</body>
+</html>

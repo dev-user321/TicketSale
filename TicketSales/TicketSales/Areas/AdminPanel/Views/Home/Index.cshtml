@@ -1,0 +1,196 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Admin Panel</title>
+    <link rel="stylesheet" href="~/css/admin_panel_page.css"/>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="brand">
+            <div class="brand-icon"></div>
+            <span>AdminPanel</span>
+        </div>
+        <div class="menu">
+            <div class="menu-category">Main</div>
+            <a asp-area="AdminPanel" asp-controller="Home" asp-action="Index" class="menu-item active">
+                <div class="menu-icon">📊</div>
+                <span>Dashboard</span>
+            </a>
+            <a href="#" class="menu-item">
+                <div class="menu-icon">👥</div>
+                <span>Users</span>
+            </a>
+            <a asp-area="AdminPanel" asp-controller="Category" asp-action="Index" class="menu-item">
+                <div class="menu-icon">📦</div>
+                <span>Categories</span>
+            </a>
+            <a href="#" class="menu-item">
+                <div class="menu-icon">📝</div>
+                <span>Orders</span>
+            </a>
+
+        
+            <a asp-area="" asp-controller="Home" asp-action="Index" class="menu-item">
+                <div class="menu-icon">🚪</div>
+                <span>Logout</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="top-bar">
+            <h1 class="page-title">Dashboard</h1>
+            <div class="user-profile">
+                <div class="user-avatar">AM</div>
+                <div class="user-info">
+                    <div class="user-name">Admin</div>
+                    <div class="user-role">Administrator</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats-container">
+            <div class="stat-card">
+                <div class="stat-icon blue">👥</div>
+                <div class="stat-info">
+                    <div class="stat-value">4,385</div>
+                    <div class="stat-label">Total Users</div>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon green">💰</div>
+                <div class="stat-info">
+                    <div class="stat-value">$12,580</div>
+                    <div class="stat-label">Monthly Revenue</div>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon orange">🛒</div>
+                <div class="stat-info">
+                    <div class="stat-value">356</div>
+                    <div class="stat-label">New Orders</div>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon red">🔄</div>
+                <div class="stat-info">
+                    <div class="stat-value">18</div>
+                    <div class="stat-label">Pending Returns</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-container">
+            <div class="recent-activity">
+                <div class="section-header">
+                    <h2 class="section-title">Recent Activities</h2>
+                    <div class="view-all">View All</div>
+                </div>
+                <table class="activity-list">
+                    <thead>
+                        <tr>
+                            <th>Activity</th>
+                            <th>User</th>
+                            <th>Status</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>New order #5478</td>
+                            <td>John Doe</td>
+                            <td><span class="status completed">Completed</span></td>
+                            <td>2 hours ago</td>
+                        </tr>
+                        <tr>
+                            <td>User registration</td>
+                            <td>Maria Johnson</td>
+                            <td><span class="status completed">Completed</span></td>
+                            <td>4 hours ago</td>
+                        </tr>
+                        <tr>
+                            <td>Payment #3256</td>
+                            <td>Alex Smith</td>
+                            <td><span class="status pending">Pending</span></td>
+                            <td>5 hours ago</td>
+                        </tr>
+                        <tr>
+                            <td>Product update</td>
+                            <td>Admin</td>
+                            <td><span class="status completed">Completed</span></td>
+                            <td>Yesterday</td>
+                        </tr>
+                        <tr>
+                            <td>Order cancellation #2145</td>
+                            <td>Lisa Brown</td>
+                            <td><span class="status failed">Failed</span></td>
+                            <td>Yesterday</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="chart-container">
+                <div class="section-header">
+                    <h2 class="section-title">Upcoming Tasks</h2>
+                    <div class="view-all">View All</div>
+                </div>
+                <ul class="task-list">
+                    <li class="task-item">
+                        <div class="task-checkbox checked"></div>
+                        <div class="task-content">
+                            <div class="task-title">Review new products</div>
+                            <div class="task-meta">Admin <span class="task-date">Today</span></div>
+                        </div>
+                    </li>
+                    <li class="task-item">
+                        <div class="task-checkbox"></div>
+                        <div class="task-content">
+                            <div class="task-title">Update pricing strategy</div>
+                            <div class="task-meta">Marketing <span class="task-date">Tomorrow</span></div>
+                        </div>
+                    </li>
+                    <li class="task-item">
+                        <div class="task-checkbox"></div>
+                        <div class="task-content">
+                            <div class="task-title">Send quarterly newsletter</div>
+                            <div class="task-meta">Marketing <span class="task-date">May 20</span></div>
+                        </div>
+                    </li>
+                    <li class="task-item">
+                        <div class="task-checkbox"></div>
+                        <div class="task-content">
+                            <div class="task-title">Plan summer promotion</div>
+                            <div class="task-meta">Sales <span class="task-date">May 22</span></div>
+                        </div>
+                    </li>
+                    <li class="task-item">
+                        <div class="task-checkbox"></div>
+                        <div class="task-content">
+                            <div class="task-title">Review inventory report</div>
+                            <div class="task-meta">Admin <span class="task-date">May 25</span></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <div class="section-header">
+                <h2 class="section-title">Revenue Overview</h2>
+                <div class="view-all">Monthly</div>
+            </div>
+            <div class="chart-placeholder">
+                Revenue chart visualization would be displayed here
+            </div>
+        </div>
+    </div>
+</body>
+</html>

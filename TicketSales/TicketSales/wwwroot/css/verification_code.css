@@ -1,0 +1,80 @@
+﻿
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #dbeafe, #fce7f3);
+    color: #111827;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    border-radius: 12px;
+    padding: 2rem 2.5rem;
+    max-width: 360px;
+    width: 90%;
+    box-shadow: 0 8px 24px rgba(236, 72, 153, 0.4);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+    color: #3b82f6;
+}
+
+form {
+    display: flex;
+    gap: 1rem; /* inputlar və düymə arası boşluq */
+    justify-content: center; /* lazım olsa düzəldərsən */
+    align-items: center; /* düymə və inputların üfüqi hizalanması */
+}
+
+input[type="text"] {
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    border: 2px solid #ec4899;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+    input[type="text"]:focus {
+        border-color: #3b82f6;
+    }
+
+button {
+    margin-top: 0; /* buttonun form içində yuxarıda hizalanması üçün */
+    padding: 0.9rem 1.5rem;
+    background: #3b82f6;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+    button:hover {
+        background: #2563eb;
+    }
+
+@media (max-width: 400px) {
+    form {
+        justify-content: space-around;
+    }
+
+    input[type="text"] {
+        width: 40px;
+        height: 40px;
+        font-size: 1.5rem;
+    }
+}
+

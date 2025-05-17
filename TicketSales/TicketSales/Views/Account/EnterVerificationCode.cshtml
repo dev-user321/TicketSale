@@ -1,0 +1,47 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>4 Rəqəmli Kod Daxil Et</title>
+    <link rel="stylesheet" href="~/css/verification_code.css"/>
+</head>
+<body>
+    <div class="container">
+        <h2>4 Rəqəmli Kod Daxil Et</h2>
+        <form asp-controller="Account" asp-action="EnterVerificationCode" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="All"></div>
+            <input type="text" name="digit1" maxlength="1" pattern="[0-9]" inputmode="numeric" required />
+            <input type="text" name="digit2" maxlength="1" pattern="[0-9]" inputmode="numeric" required />
+            <input type="text" name="digit3" maxlength="1" pattern="[0-9]" inputmode="numeric" required />
+            <input type="text" name="digit4" maxlength="1" pattern="[0-9]" inputmode="numeric" required /> <br />
+            <button type="submit">Təsdiqlə</button>
+        </form>
+    </div>
+    <script>
+        const inputs = document.querySelectorAll('input[type="text"]');
+
+        inputs.forEach((input, index) => {
+            input.addEventListener('input', (e) => {
+                const value = e.target.value;
+                if (value.length === 1 && index < inputs.length - 1) {
+                    inputs[index + 1].focus();
+                }
+            });
+
+            input.addEventListener('keydown', (e) => {
+                if (e.key === "Backspace" && !input.value && index > 0) {
+                    inputs[index - 1].focus();
+                }
+            });
+        });
+
+        window.addEventListener('load', () => inputs[0].focus());
+    </script>
+</body>
+</html>

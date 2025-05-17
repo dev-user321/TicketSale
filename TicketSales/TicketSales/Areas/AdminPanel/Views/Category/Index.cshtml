@@ -1,0 +1,115 @@
+﻿
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Admin Panel</title>
+    <link rel="stylesheet" href="~/css/admin_panel_page.css" />
+</head>
+<body>
+    <div class="sidebar">
+        <div class="brand">
+            <div class="brand-icon"></div>
+            <span>AdminPanel</span>
+        </div>
+        <div class="menu">
+            <div class="menu-category">Main</div>
+            <a asp-area="AdminPanel" asp-controller="Home" asp-action="Index" class="menu-item active">
+                <div class="menu-icon">📊</div>
+                <span>Dashboard</span>
+            </a>
+            <a href="#" class="menu-item">
+                <div class="menu-icon">👥</div>
+                <span>Users</span>
+            </a>
+            <a asp-area="AdminPanel" asp-controller="Category" asp-action="Index" class="menu-item">
+                <div class="menu-icon">📦</div>
+                <span>Categories</span>
+            </a>
+            <a href="#" class="menu-item">
+                <div class="menu-icon">📝</div>
+                <span>Orders</span>
+            </a>
+
+
+            <a asp-area="" asp-controller="Home" asp-action="Index" class="menu-item">
+                <div class="menu-icon">🚪</div>
+                <span>Logout</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="top-bar">
+            <h1 class="page-title">Category Table</h1>
+            <div class="user-profile">
+                <div class="user-avatar">AM</div>
+                <div class="user-info">
+                    <div class="user-name">Admin</div>
+                    <div class="user-role">Administrator</div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="grid-container">
+            <div class="recent-activity">
+                <button style="background-color:white;border:1px solid black; padding:10px; width:80px; border-radius:10px; margin-bottom:10px;">  <a style="text-decoration:none;" asp-area="AdminPanel" asp-controller="Category" asp-action="Create">+</a> </button>
+                <div class="section-header">
+                    <h2 class="section-title">Categories</h2>
+                </div>
+                <table class="activity-list">
+                    <thead>
+                        <tr>
+                            <th>Number</th>
+                            <th>Name</th>
+                            <th>Settings</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>New order #5478</td>
+                            <td>John Doe</td>
+                            <td>
+                                <button style="background-color:white;border:1px solid green; padding:10px; width:80px; border-radius:10px; margin-bottom:10px;">  <a style="text-decoration:none; color:green" asp-area="AdminPanel" asp-controller="Category" asp-action="Edit" asp-route-id="categoryId">Edit</a>  </button>
+                                <button style="background-color:white;border:1px solid red; padding:10px; width:80px; border-radius:10px; margin-bottom:10px;">  <a style="text-decoration:none; color:red" asp-area="AdminPanel" asp-controller="Category" asp-action="Delete" asp-route-id="categoryId">Del</a>  </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>User registration</td>
+                            <td>Maria Johnson</td>
+                            <td><span class="status completed">Completed</span></td>
+                        </tr>
+                        <tr>
+                            <td>Payment #3256</td>
+                            <td>Alex Smith</td>
+                            <td><span class="status pending">Pending</span></td>
+                        </tr>
+                        <tr>
+                            <td>Product update</td>
+                            <td>Admin</td>
+                            <td><span class="status completed">Completed</span></td>
+                        </tr>
+                        <tr>
+                            <td>Order cancellation #2145</td>
+                            <td>Lisa Brown</td>
+                            <td><span class="status failed">Failed</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            
+        </div>
+
+      
+    </div>
+</body>
+</html>

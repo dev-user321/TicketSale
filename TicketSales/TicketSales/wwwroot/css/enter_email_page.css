@@ -1,0 +1,86 @@
+﻿
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #dbeafe, #fce7f3);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    color: #111827;
+    border-radius: 12px;
+    padding: 2rem 2.5rem;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0 8px 24px rgb(236 72 153 / 0.4);
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+    color: #3b82f6;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #2563eb;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    border: 2px solid #ec4899;
+    outline: none;
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+    transition: border-color 0.3s ease;
+}
+
+    input[type="email"]:focus {
+        border-color: #3b82f6;
+    }
+
+button {
+    width: 100%;
+    background: #3b82f6;
+    color: white;
+    padding: 0.9rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    button:hover {
+        background: #2563eb;
+    }
+
+.back-link {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    color: #ec4899;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+    .back-link:hover {
+        text-decoration: underline;
+    }
+
+@media (max-width: 480px) {
+    .container {
+        padding: 1.5rem 1.5rem;
+    }
+}
+
