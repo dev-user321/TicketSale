@@ -13,7 +13,8 @@ namespace TicketSales.ViewModels
         [Required]
         public IFormFile Image { get; set; }
         [Required]
+        public DateTime Created { get; set; }
+        [Required]
         public int CategoryId { get; set; }
-        public string ImageLink { get; set; }
     }
 }

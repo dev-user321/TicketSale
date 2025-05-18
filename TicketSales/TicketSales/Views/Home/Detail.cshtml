@@ -1,0 +1,193 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventTix - Tədbir Detalları</title>
+    <link rel="stylesheet" href="~/css/home_detail_page.css"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" class="logo">EventTix</a>
+            <a href="/account/login" class="btn login-btn">Giriş</a>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <a href="/" class="back-link">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 12H5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 19L5 12L12 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            Ana Səhifəyə Qayıt
+        </a>
+
+        <div class="event-details">
+            <div class="event-image">
+                <img src="/api/placeholder/800/500" alt="Tədbir Şəkli">
+            </div>
+            <div class="event-info">
+                <h1 class="event-title">Romeo və Cülyetta</h1>
+
+                <div class="event-meta">
+                    <div class="meta-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2" />
+                            <path d="M16 2V6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                            <path d="M8 2V6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                            <path d="M3 10H21" stroke="currentColor" stroke-width="2" />
+                        </svg>
+                        18.05.2025 - 19:00
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        Akademik Milli Dram Teatrı
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M12 6V12L16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        120 dəqiqə
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18 8C18 6.4087 17.3679 4.88258 16.2426 3.75736C15.1174 2.63214 13.5913 2 12 2C10.4087 2 8.88258 2.63214 7.75736 3.75736C6.63214 4.88258 6 6.4087 6 8C6 15 3 17 3 17H21C21 17 18 15 18 8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M13.73 21C13.5542 21.3031 13.3019 21.5547 12.9982 21.7295C12.6946 21.9044 12.3504 21.9965 12 21.9965C11.6496 21.9965 11.3054 21.9044 11.0018 21.7295C10.6982 21.5547 10.4458 21.3031 10.27 21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        Yaş məhdudiyyəti: 12+
+                    </div>
+                </div>
+
+                <div class="event-description">
+                    <p>Şekspirin dünyaca məşhur "Romeo və Cülyetta" əsəri yeni quruluşda təqdim olunur. İki düşmən ailənin övladları arasında yaşanan məhəbbət dramı tamaşaçıları öz dünyasına aparacaq.</p>
+                    <p>Bu tamaşada klassik əsərə müasir baxış görmək mümkün olacaq. Rejissor quruluşu, aktyorların istedadlı ifası və xüsusi dizayn edilmiş səhnə dekorasiyaları ilə unudulmaz bir teatr təcrübəsi vəd edilir.</p>
+                </div>
+
+                <div class="ticket-options">
+                    <h3>Bilet seçimləri</h3>
+                    <div class="ticket-option">
+                        <span class="ticket-type">Standard</span>
+                        <span class="ticket-price">25 AZN</span>
+                    </div>
+                    <div class="ticket-option">
+                        <span class="ticket-type">VIP</span>
+                        <span class="ticket-price">45 AZN</span>
+                    </div>
+                    <div class="ticket-option">
+                        <span class="ticket-type">Premium</span>
+                        <span class="ticket-price">65 AZN</span>
+                    </div>
+                    <a href="#" class="btn buy-btn">Bilet Al</a>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="section-title">Eyni kateqoriyadan digər tamaşalar</h2>
+        <div class="related-events">
+            <div class="event-card">
+                <div class="card-image">
+                    <img src="/api/placeholder/400/320" alt="Tamaşa şəkli">
+                    <div class="event-date">20.05.2025</div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Hamlet</h3>
+                    <div class="card-location">Akademik Milli Dram Teatrı</div>
+                    <div class="card-footer">
+                        <a href="#" class="btn">Detallı</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="event-card">
+                <div class="card-image">
+                    <img src="/api/placeholder/400/320" alt="Tamaşa şəkli">
+                    <div class="event-date">22.05.2025</div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Makbet</h3>
+                    <div class="card-location">Gənc Tamaşaçılar Teatrı</div>
+                    <div class="card-footer">
+                        <a href="#" class="btn">Detallı</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="event-card">
+                <div class="card-image">
+                    <img src="/api/placeholder/400/320" alt="Tamaşa şəkli">
+                    <div class="event-date">25.05.2025</div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Otello</h3>
+                    <div class="card-location">Akademik Milli Dram Teatrı</div>
+                    <div class="card-footer">
+                        <a href="#" class="btn">Detallı</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="event-card">
+                <div class="card-image">
+                    <img src="/api/placeholder/400/320" alt="Tamaşa şəkli">
+                    <div class="event-date">27.05.2025</div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Yay gecəsi röyası</h3>
+                    <div class="card-location">Gənc Tamaşaçılar Teatrı</div>
+                    <div class="card-footer">
+                        <a href="#" class="btn">Detallı</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>EventTix</h3>
+                <p>Ən yaxşı tədbir və əyləncə biletləri üçün rəsmi onlayn satış platforması.</p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Əlaqə</h3>
+                <ul>
+                    <li>Email: info@eventtix.az</li>
+                    <li>Telefon: +994 12 345 67 89</li>
+                    <li>Ünvan: Bakı şəh., Nəsimi r-nu, Azadlıq pr. 15</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 EventTix. Bütün hüquqlar qorunur.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Burger menu functionality
+        const burger = document.querySelector('.burger');
+        const nav = document.querySelector('.nav-links');
+
+        if (burger && nav) {
+            burger.addEventListener('click', () => {
+                nav.classList.toggle('active');
+            });
+        }
+    </script>
+</body>
+</html>

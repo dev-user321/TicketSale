@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\enter_email_page.css"
     },
     {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\css\\home_detail_page.css",
+      "PackagePath": "staticwebassets\\css\\home_detail_page.css"
+    },
+    {
       "Id": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\css\\home_page.css",
       "PackagePath": "staticwebassets\\css\\home_page.css"
     },
@@ -29,8 +33,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\img\\59a79afb-e749-4062-b3dc-07c3b428e027OIP (9).jpeg",
+      "PackagePath": "staticwebassets\\img\\59a79afb-e749-4062-b3dc-07c3b428e027OIP (9).jpeg"
+    },
+    {
       "Id": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\img\\7269f436-02f0-4207-883c-aa5b80f5afc7download (3).jpeg",
       "PackagePath": "staticwebassets\\img\\7269f436-02f0-4207-883c-aa5b80f5afc7download (3).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\img\\78ac3d31-1811-4d30-b87b-9cf7d62912a6download (3).jpeg",
+      "PackagePath": "staticwebassets\\img\\78ac3d31-1811-4d30-b87b-9cf7d62912a6download (3).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\img\\a24fc015-0177-4def-b925-cd28ca93fef7OIP (8).jpeg",
+      "PackagePath": "staticwebassets\\img\\a24fc015-0177-4def-b925-cd28ca93fef7OIP (8).jpeg"
     },
     {
       "Id": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\js\\site.js",

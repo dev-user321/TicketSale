@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eVNFMV9A7LGapuLA+C+2xfwIiXZEhKyE1CoCnpz+3Mg=",
+  "Hash": "IB1GlO4+xzJPogQ0TldVZlLyhCgpSIUuW4X6X6ulM7U=",
   "Source": "TicketSales",
   "BasePath": "_content/TicketSales",
   "Mode": "Default",
@@ -101,6 +101,27 @@
       "OriginalItemSpec": "wwwroot\\css\\enter_email_page.css"
     },
     {
+      "Identity": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\css\\home_detail_page.css",
+      "SourceId": "TicketSales",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\",
+      "BasePath": "_content/TicketSales",
+      "RelativePath": "css/home_detail_page#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "18lk5l2u5q",
+      "Integrity": "jx4Lzq1+zu+cLI2BeFskplGmAT//nz8CyXEfGn5G+KM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\home_detail_page.css"
+    },
+    {
       "Identity": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\css\\home_page.css",
       "SourceId": "TicketSales",
       "SourceType": "Discovered",
@@ -185,6 +206,27 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\img\\59a79afb-e749-4062-b3dc-07c3b428e027OIP (9).jpeg",
+      "SourceId": "TicketSales",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\",
+      "BasePath": "_content/TicketSales",
+      "RelativePath": "img/59a79afb-e749-4062-b3dc-07c3b428e027OIP (9)#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "byaim0zfz7",
+      "Integrity": "8830P7he7OZIxwFFun2pA10JboQ5+5n1VAXbguZwn04=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\59a79afb-e749-4062-b3dc-07c3b428e027OIP (9).jpeg"
+    },
+    {
       "Identity": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\img\\7269f436-02f0-4207-883c-aa5b80f5afc7download (3).jpeg",
       "SourceId": "TicketSales",
       "SourceType": "Discovered",
@@ -204,6 +246,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\7269f436-02f0-4207-883c-aa5b80f5afc7download (3).jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\img\\78ac3d31-1811-4d30-b87b-9cf7d62912a6download (3).jpeg",
+      "SourceId": "TicketSales",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\",
+      "BasePath": "_content/TicketSales",
+      "RelativePath": "img/78ac3d31-1811-4d30-b87b-9cf7d62912a6download (3)#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "low292scxs",
+      "Integrity": "9cKPXZIyqVIMpwOBm6AOKwwQ4udvGBsuXObMEoaplqw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\78ac3d31-1811-4d30-b87b-9cf7d62912a6download (3).jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\img\\a24fc015-0177-4def-b925-cd28ca93fef7OIP (8).jpeg",
+      "SourceId": "TicketSales",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\",
+      "BasePath": "_content/TicketSales",
+      "RelativePath": "img/a24fc015-0177-4def-b925-cd28ca93fef7OIP (8)#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vcvuliizi2",
+      "Integrity": "P5c7sJj1541qHfcCw6hAXL8dVjQwh1xe+WhgXomX8Pg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\a24fc015-0177-4def-b925-cd28ca93fef7OIP (8).jpeg"
     },
     {
       "Identity": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\js\\site.js",
@@ -1590,6 +1674,88 @@
       ]
     },
     {
+      "Route": "css/home_detail_page.18lk5l2u5q.css",
+      "AssetFile": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\css\\home_detail_page.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jx4Lzq1+zu+cLI2BeFskplGmAT//nz8CyXEfGn5G+KM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 10:59:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "18lk5l2u5q"
+        },
+        {
+          "Name": "label",
+          "Value": "css/home_detail_page.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jx4Lzq1+zu+cLI2BeFskplGmAT//nz8CyXEfGn5G+KM="
+        }
+      ]
+    },
+    {
+      "Route": "css/home_detail_page.css",
+      "AssetFile": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\css\\home_detail_page.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jx4Lzq1+zu+cLI2BeFskplGmAT//nz8CyXEfGn5G+KM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 10:59:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jx4Lzq1+zu+cLI2BeFskplGmAT//nz8CyXEfGn5G+KM="
+        }
+      ]
+    },
+    {
       "Route": "css/home_page.css",
       "AssetFile": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\css\\home_page.css",
       "Selectors": [],
@@ -1918,6 +2084,88 @@
       ]
     },
     {
+      "Route": "img/59a79afb-e749-4062-b3dc-07c3b428e027OIP (9).byaim0zfz7.jpeg",
+      "AssetFile": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\img\\59a79afb-e749-4062-b3dc-07c3b428e027OIP (9).jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21609"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8830P7he7OZIxwFFun2pA10JboQ5+5n1VAXbguZwn04=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 10:51:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "byaim0zfz7"
+        },
+        {
+          "Name": "label",
+          "Value": "img/59a79afb-e749-4062-b3dc-07c3b428e027OIP (9).jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8830P7he7OZIxwFFun2pA10JboQ5+5n1VAXbguZwn04="
+        }
+      ]
+    },
+    {
+      "Route": "img/59a79afb-e749-4062-b3dc-07c3b428e027OIP (9).jpeg",
+      "AssetFile": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\img\\59a79afb-e749-4062-b3dc-07c3b428e027OIP (9).jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21609"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8830P7he7OZIxwFFun2pA10JboQ5+5n1VAXbguZwn04=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 10:51:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8830P7he7OZIxwFFun2pA10JboQ5+5n1VAXbguZwn04="
+        }
+      ]
+    },
+    {
       "Route": "img/7269f436-02f0-4207-883c-aa5b80f5afc7download (3).jpeg",
       "AssetFile": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\img\\7269f436-02f0-4207-883c-aa5b80f5afc7download (3).jpeg",
       "Selectors": [],
@@ -1996,6 +2244,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-9cKPXZIyqVIMpwOBm6AOKwwQ4udvGBsuXObMEoaplqw="
+        }
+      ]
+    },
+    {
+      "Route": "img/78ac3d31-1811-4d30-b87b-9cf7d62912a6download (3).jpeg",
+      "AssetFile": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\img\\78ac3d31-1811-4d30-b87b-9cf7d62912a6download (3).jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9cKPXZIyqVIMpwOBm6AOKwwQ4udvGBsuXObMEoaplqw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 10:38:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9cKPXZIyqVIMpwOBm6AOKwwQ4udvGBsuXObMEoaplqw="
+        }
+      ]
+    },
+    {
+      "Route": "img/78ac3d31-1811-4d30-b87b-9cf7d62912a6download (3).low292scxs.jpeg",
+      "AssetFile": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\img\\78ac3d31-1811-4d30-b87b-9cf7d62912a6download (3).jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9cKPXZIyqVIMpwOBm6AOKwwQ4udvGBsuXObMEoaplqw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 10:38:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "low292scxs"
+        },
+        {
+          "Name": "label",
+          "Value": "img/78ac3d31-1811-4d30-b87b-9cf7d62912a6download (3).jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9cKPXZIyqVIMpwOBm6AOKwwQ4udvGBsuXObMEoaplqw="
+        }
+      ]
+    },
+    {
+      "Route": "img/a24fc015-0177-4def-b925-cd28ca93fef7OIP (8).jpeg",
+      "AssetFile": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\img\\a24fc015-0177-4def-b925-cd28ca93fef7OIP (8).jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24458"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P5c7sJj1541qHfcCw6hAXL8dVjQwh1xe+WhgXomX8Pg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 10:43:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-P5c7sJj1541qHfcCw6hAXL8dVjQwh1xe+WhgXomX8Pg="
+        }
+      ]
+    },
+    {
+      "Route": "img/a24fc015-0177-4def-b925-cd28ca93fef7OIP (8).vcvuliizi2.jpeg",
+      "AssetFile": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\img\\a24fc015-0177-4def-b925-cd28ca93fef7OIP (8).jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24458"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P5c7sJj1541qHfcCw6hAXL8dVjQwh1xe+WhgXomX8Pg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 10:43:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vcvuliizi2"
+        },
+        {
+          "Name": "label",
+          "Value": "img/a24fc015-0177-4def-b925-cd28ca93fef7OIP (8).jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P5c7sJj1541qHfcCw6hAXL8dVjQwh1xe+WhgXomX8Pg="
         }
       ]
     },
@@ -6778,7 +7190,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 14:43:39 GMT"
+          "Value": "Sun, 18 May 2025 10:11:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6823,7 +7235,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 14:43:39 GMT"
+          "Value": "Sun, 18 May 2025 10:11:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6868,7 +7280,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 14:43:39 GMT"
+          "Value": "Sun, 18 May 2025 10:11:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6905,7 +7317,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 14:43:39 GMT"
+          "Value": "Sun, 18 May 2025 10:11:33 GMT"
         },
         {
           "Name": "Cache-Control",

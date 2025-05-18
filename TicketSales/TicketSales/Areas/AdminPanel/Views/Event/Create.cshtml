@@ -57,6 +57,7 @@
 
 
         <form asp-area="AdminPanel" asp-controller="Event" asp-action="Create" method="post" enctype="multipart/form-data" style="padding: 20px;">
+            <div asp-validation-summary="All"></div>
             <h2 class="section-title">Yeni Event Yarat</h2>
 
             <div style="margin-bottom: 15px;">
@@ -79,6 +80,10 @@
                 <select asp-for="CategoryId" asp-items="ViewBag.Categories" style="width: 100%; padding: 8px;" required></select>
             </div>
 
+            <div style="margin-bottom: 15px;">
+                <label for="CreateDate">Tarix:</label><br />
+                <input type="datetime-local" asp-for="Created" style="width: 100%; padding: 8px;" required />
+            </div>
 
             <div style="margin-bottom: 15px;">
                 <label for="Image">Şəkil seçin:</label><br />

@@ -35,6 +35,8 @@ namespace TicketSales.Areas.AdminPanel.Controllers
             if (!ModelState.IsValid)
             {
                 ModelState.AddModelError("", "Zəhmət olmasa bütün sahələri doldurun.");
+                ViewBag.Categories = new SelectList(_context.Categories.Where(c => !c.SoftDelete), "Id", "CategoryName");
+
                 return View(eventCreate);
             }
 
@@ -51,7 +53,9 @@ namespace TicketSales.Areas.AdminPanel.Controllers
                 Description = eventCreate.Description,
                 Location = eventCreate.Location,
                 ImageLink = fileName,
-                CategoryId = eventCreate.CategoryId
+                CategoryId = eventCreate.CategoryId,
+                CreatedDate = eventCreate.Created
+                
             };
 
             _context.Events.Add(newEvent);
@@ -85,7 +89,7 @@ namespace TicketSales.Areas.AdminPanel.Controllers
                 Description = evt.Description,
                 Location = evt.Location,
                 CategoryId = evt.CategoryId,
-                ImageLink = evt.ImageLink,
+                //ImageLink = evt.ImageLink,
             };
 
             return View(oldEvt);

@@ -247,6 +247,7 @@ C:\Users\Lenovo\Desktop\AspNet-Quiz\TicketSales\TicketSales\TicketSales\obj\Debu
 C:\Users\Lenovo\Desktop\AspNet-Quiz\TicketSales\TicketSales\TicketSales\obj\Debug\net8.0\TicketSales.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Lenovo\Desktop\AspNet-Quiz\TicketSales\TicketSales\TicketSales\obj\Debug\net8.0\TicketSales.RazorAssemblyInfo.cache
 C:\Users\Lenovo\Desktop\AspNet-Quiz\TicketSales\TicketSales\TicketSales\obj\Debug\net8.0\TicketSales.RazorAssemblyInfo.cs
+C:\Users\Lenovo\Desktop\AspNet-Quiz\TicketSales\TicketSales\TicketSales\obj\Debug\net8.0\TicketSales.sourcelink.json
 C:\Users\Lenovo\Desktop\AspNet-Quiz\TicketSales\TicketSales\TicketSales\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Lenovo\Desktop\AspNet-Quiz\TicketSales\TicketSales\TicketSales\obj\Debug\net8.0\scopedcss\bundle\TicketSales.styles.css
 C:\Users\Lenovo\Desktop\AspNet-Quiz\TicketSales\TicketSales\TicketSales\obj\Debug\net8.0\scopedcss\projectbundle\TicketSales.bundle.scp.css
@@ -266,4 +267,3 @@ C:\Users\Lenovo\Desktop\AspNet-Quiz\TicketSales\TicketSales\TicketSales\obj\Debu
 C:\Users\Lenovo\Desktop\AspNet-Quiz\TicketSales\TicketSales\TicketSales\obj\Debug\net8.0\TicketSales.pdb
 C:\Users\Lenovo\Desktop\AspNet-Quiz\TicketSales\TicketSales\TicketSales\obj\Debug\net8.0\TicketSales.genruntimeconfig.cache
 C:\Users\Lenovo\Desktop\AspNet-Quiz\TicketSales\TicketSales\TicketSales\obj\Debug\net8.0\ref\TicketSales.dll
-C:\Users\Lenovo\Desktop\AspNet-Quiz\TicketSales\TicketSales\TicketSales\obj\Debug\net8.0\TicketSales.sourcelink.json
