@@ -383,3 +383,22 @@ footer {
         font-size: 1rem;
     }
 }
+.user-links {
+    display: flex;
+    gap: 1rem; /* Düymələr arası məsafə */
+    align-items: center;
+}
+
+    .user-links .btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+        border-radius: 4px;
+        background-color: var(--secondary-color);
+        color: white;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+
+        .user-links .btn:hover {
+            background-color: #e5097b;
+        }

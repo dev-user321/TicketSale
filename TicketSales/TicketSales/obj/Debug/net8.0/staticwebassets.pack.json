@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\admin_panel_page.css"
     },
     {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\css\\buyticket.css",
+      "PackagePath": "staticwebassets\\css\\buyticket.css"
+    },
+    {
       "Id": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\css\\enter_email_page.css",
       "PackagePath": "staticwebassets\\css\\enter_email_page.css"
     },
@@ -47,6 +51,14 @@
     {
       "Id": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\img\\a24fc015-0177-4def-b925-cd28ca93fef7OIP (8).jpeg",
       "PackagePath": "staticwebassets\\img\\a24fc015-0177-4def-b925-cd28ca93fef7OIP (8).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\img\\bc7e97f9-1186-4183-8012-d46398eee82fOIP (10).jpeg",
+      "PackagePath": "staticwebassets\\img\\bc7e97f9-1186-4183-8012-d46398eee82fOIP (10).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\js\\buyticket.js",
+      "PackagePath": "staticwebassets\\js\\buyticket.js"
     },
     {
       "Id": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\js\\site.js",

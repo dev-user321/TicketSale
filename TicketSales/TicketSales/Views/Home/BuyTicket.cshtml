@@ -1,0 +1,41 @@
+﻿@model HomeDetailVm
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <title>Bilet Seçimi</title>
+    <link rel="stylesheet" href="~/css/home_detail_page.css" />
+    <link rel="stylesheet" href="~/css/buyticket.css" />
+</head>
+<body>
+    <div class="container">
+        <a href="javascript:history.back()" class="back-link">
+            <svg width="16" height="16" viewBox="0 0 24 24"><path d="M19 12H5" stroke="currentColor" stroke-width="2" /><path d="M12 19L5 12L12 5" stroke="currentColor" stroke-width="2" /></svg>
+            Geri qayıt
+        </a>
+
+        <h1>@Model.Event.Title - Bilet Seçimi</h1>
+
+        <form asp-controller="Home" asp-action="BuyTicket" method="post">
+            <input type="hidden" name="EventId" value="@Model.Event.Id" />
+            <div class="theater">
+                <div class="stage">SƏHNƏ</div>
+                <div class="seat-map" id="seatMap"></div>
+            </div>
+
+            <div class="selected-tickets">
+                <h3>Seçilmiş Yerlər</h3>
+                <div id="selectedSeatsList"><div id="noSeats">Heç bir yer seçilməyib</div></div>
+                <div class="total-price">Cəmi: <span id="totalPrice">0</span> AZN</div>
+                <button type="submit" id="submitBtn" class="buy-btn" disabled>Seçilmiş yerləri təsdiqlə</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="~/js/buyticket.js"></script>
+
+</body>
+</html>

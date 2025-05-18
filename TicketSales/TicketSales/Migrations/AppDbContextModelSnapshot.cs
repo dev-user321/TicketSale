@@ -164,6 +164,39 @@ namespace TicketSales.Migrations
                     b.ToTable("Tickets");
                 });
 
+            modelBuilder.Entity("TicketSales.Models.TicketOrder", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("EventId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime>("PurchaseDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("SeatInfo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("EventId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("TicketOrders");
+                });
+
             modelBuilder.Entity("TicketSales.Models.Event", b =>
                 {
                     b.HasOne("TicketSales.Models.Category", "Category")
@@ -184,6 +217,30 @@ namespace TicketSales.Migrations
                         .IsRequired();
 
                     b.Navigation("Event");
+                });
+
+            modelBuilder.Entity("TicketSales.Models.TicketOrder", b =>
+                {
+                    b.HasOne("TicketSales.Models.Event", "Event")
+                        .WithMany()
+                        .HasForeignKey("EventId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("TicketSales.Models.AppUser", "User")
+                        .WithMany("TicketOrders")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Event");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("TicketSales.Models.AppUser", b =>
+                {
+                    b.Navigation("TicketOrders");
                 });
 
             modelBuilder.Entity("TicketSales.Models.Category", b =>

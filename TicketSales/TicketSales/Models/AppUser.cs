@@ -8,5 +8,6 @@
         public string Password { get; set; }
         public bool EmailConfirm { get; set; } = false;
         public string Role { get; set; }
+        public ICollection<TicketOrder> TicketOrders { get; set; }
     }
 }

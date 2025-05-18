@@ -3,28 +3,152 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\views\\home\\buyticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\views\\home\\buyticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\wwwroot\\js\\buyticket.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\wwwroot\\js\\buyticket.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\middleware\\exceptionloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\middleware\\exceptionloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\models\\exceptionlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\models\\exceptionlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\areas\\adminpanel\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\areas\\adminpanel\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\areas\\adminpanel\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\areas\\adminpanel\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\areas\\adminpanel\\repositories\\interfaces\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\areas\\adminpanel\\repositories\\interfaces\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\areas\\adminpanel\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\areas\\adminpanel\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\areas\\adminpanel\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\areas\\adminpanel\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\areas\\adminpanel\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\areas\\adminpanel\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\areas\\adminpanel\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\areas\\adminpanel\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\areas\\adminpanel\\repositories\\interfaces\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\areas\\adminpanel\\repositories\\interfaces\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\areas\\adminpanel\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\areas\\adminpanel\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\areas\\adminpanel\\repositories\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\areas\\adminpanel\\repositories\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\wwwroot\\css\\home_detail_page.css||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\wwwroot\\css\\home_detail_page.css||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\views\\home\\mytickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\views\\home\\mytickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\wwwroot\\css\\home_detail_page.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\wwwroot\\css\\home_detail_page.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\wwwroot\\css\\home_page.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\wwwroot\\css\\home_page.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\areas\\adminpanel\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\areas\\adminpanel\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\models\\ticketorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\models\\ticketorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\viewmodels\\buyticketvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\viewmodels\\buyticketvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Migrations\\20250518134910_CreateTicketOrderTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TicketSales\\Migrations\\20250518134910_CreateTicketOrderTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\wwwroot\\css\\buyticket.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\wwwroot\\css\\buyticket.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\viewmodels\\homedetailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\viewmodels\\homedetailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\areas\\adminpanel\\views\\ticket\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\areas\\adminpanel\\views\\ticket\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\areas\\adminpanel\\views\\ticket\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\areas\\adminpanel\\views\\ticket\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\wwwroot\\css\\home_detail_page.css||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\wwwroot\\css\\home_detail_page.css||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\areas\\adminpanel\\views\\event\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -35,10 +159,6 @@
       "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\viewmodels\\eventcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\areas\\adminpanel\\views\\event\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\areas\\adminpanel\\views\\event\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -47,32 +167,8 @@
       "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\areas\\adminpanel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\areas\\adminpanel\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\areas\\adminpanel\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\areas\\adminpanel\\views\\ticket\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\areas\\adminpanel\\views\\ticket\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\areas\\adminpanel\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\areas\\adminpanel\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\areas\\adminpanel\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\areas\\adminpanel\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\areas\\adminpanel\\views\\ticket\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\areas\\adminpanel\\views\\ticket\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\areas\\adminpanel\\views\\ticket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -85,10 +181,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\areas\\adminpanel\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\areas\\adminpanel\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\areas\\adminpanel\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -107,16 +199,8 @@
       "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\areas\\adminpanel\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\viewmodels\\categorycreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\viewmodels\\categorycreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -129,10 +213,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\areas\\adminpanel\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\areas\\adminpanel\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -171,20 +251,12 @@
       "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\helper\\passwordhash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\views\\account\\enterverificationcode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\views\\account\\enterverificationcode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -197,10 +269,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\services\\interfaces\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\services\\interfaces\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|solutionrelative:ticketsales\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B1194C4-DD06-4143-A258-BC46D10DC2C7}|TicketSales\\TicketSales.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\ticketsales\\ticketsales\\ticketsales\\wwwroot\\css\\verification_code.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -250,7 +318,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 61,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Bookmark",
@@ -270,7 +338,228 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "buyticket.js",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\js\\buyticket.js",
+              "RelativeDocumentMoniker": "TicketSales\\wwwroot\\js\\buyticket.js",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\js\\buyticket.js",
+              "RelativeToolTip": "TicketSales\\wwwroot\\js\\buyticket.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-18T15:16:12.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ExceptionLoggingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Middleware\\ExceptionLoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "TicketSales\\Middleware\\ExceptionLoggingMiddleware.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Middleware\\ExceptionLoggingMiddleware.cs",
+              "RelativeToolTip": "TicketSales\\Middleware\\ExceptionLoggingMiddleware.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T15:06:41.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExceptionLog.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Models\\ExceptionLog.cs",
+              "RelativeDocumentMoniker": "TicketSales\\Models\\ExceptionLog.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Models\\ExceptionLog.cs",
+              "RelativeToolTip": "TicketSales\\Models\\ExceptionLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T15:05:22.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Repositories\\TicketRepository.cs",
+              "RelativeDocumentMoniker": "TicketSales\\Areas\\AdminPanel\\Repositories\\TicketRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Repositories\\TicketRepository.cs",
+              "RelativeToolTip": "TicketSales\\Areas\\AdminPanel\\Repositories\\TicketRepository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAqwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:59:23.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ITicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Repositories\\Interfaces\\ITicketRepository.cs",
+              "RelativeDocumentMoniker": "TicketSales\\Areas\\AdminPanel\\Repositories\\Interfaces\\ITicketRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Repositories\\Interfaces\\ITicketRepository.cs",
+              "RelativeToolTip": "TicketSales\\Areas\\AdminPanel\\Repositories\\Interfaces\\ITicketRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:59:01.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Repositories\\EventRepository.cs",
+              "RelativeDocumentMoniker": "TicketSales\\Areas\\AdminPanel\\Repositories\\EventRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Repositories\\EventRepository.cs",
+              "RelativeToolTip": "TicketSales\\Areas\\AdminPanel\\Repositories\\EventRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwBQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:56:17.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IEventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Repositories\\Interfaces\\IEventRepository.cs",
+              "RelativeDocumentMoniker": "TicketSales\\Areas\\AdminPanel\\Repositories\\Interfaces\\IEventRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Repositories\\Interfaces\\IEventRepository.cs",
+              "RelativeToolTip": "TicketSales\\Areas\\AdminPanel\\Repositories\\Interfaces\\IEventRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:55:55.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "TicketSales\\Areas\\AdminPanel\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "TicketSales\\Areas\\AdminPanel\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:54:11.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Repositories\\Interfaces\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "TicketSales\\Areas\\AdminPanel\\Repositories\\Interfaces\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Repositories\\Interfaces\\ICategoryRepository.cs",
+              "RelativeToolTip": "TicketSales\\Areas\\AdminPanel\\Repositories\\Interfaces\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:53:43.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "home_detail_page.css",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\css\\home_detail_page.css",
+              "RelativeDocumentMoniker": "TicketSales\\wwwroot\\css\\home_detail_page.css",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\css\\home_detail_page.css",
+              "RelativeToolTip": "TicketSales\\wwwroot\\css\\home_detail_page.css",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvykAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-18T14:18:43.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MyTickets.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Views\\Home\\MyTickets.cshtml",
+              "RelativeDocumentMoniker": "TicketSales\\Views\\Home\\MyTickets.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Views\\Home\\MyTickets.cshtml",
+              "RelativeToolTip": "TicketSales\\Views\\Home\\MyTickets.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAiwFYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T13:50:15.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20250518134910_CreateTicketOrderTable.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Migrations\\20250518134910_CreateTicketOrderTable.cs",
+              "RelativeDocumentMoniker": "TicketSales\\Migrations\\20250518134910_CreateTicketOrderTable.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Migrations\\20250518134910_CreateTicketOrderTable.cs",
+              "RelativeToolTip": "TicketSales\\Migrations\\20250518134910_CreateTicketOrderTable.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwBMAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:49:10.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TicketOrder.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Models\\TicketOrder.cs",
+              "RelativeDocumentMoniker": "TicketSales\\Models\\TicketOrder.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Models\\TicketOrder.cs",
+              "RelativeToolTip": "TicketSales\\Models\\TicketOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:45:27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BuyTicketVm.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\ViewModels\\BuyTicketVm.cs",
+              "RelativeDocumentMoniker": "TicketSales\\ViewModels\\BuyTicketVm.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\ViewModels\\BuyTicketVm.cs",
+              "RelativeToolTip": "TicketSales\\ViewModels\\BuyTicketVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T12:56:50.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "buyticket.css",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\css\\buyticket.css",
+              "RelativeDocumentMoniker": "TicketSales\\wwwroot\\css\\buyticket.css",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\css\\buyticket.css",
+              "RelativeToolTip": "TicketSales\\wwwroot\\css\\buyticket.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-18T12:56:32.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BuyTicket.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Views\\Home\\BuyTicket.cshtml",
+              "RelativeDocumentMoniker": "TicketSales\\Views\\Home\\BuyTicket.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Views\\Home\\BuyTicket.cshtml",
+              "RelativeToolTip": "TicketSales\\Views\\Home\\BuyTicket.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T12:35:55.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "HomeDetailVm.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\ViewModels\\HomeDetailVm.cs",
+              "RelativeDocumentMoniker": "TicketSales\\ViewModels\\HomeDetailVm.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\ViewModels\\HomeDetailVm.cs",
+              "RelativeToolTip": "TicketSales\\ViewModels\\HomeDetailVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T12:14:00.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
               "Title": "home_detail_page.css",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\css\\home_detail_page.css",
               "RelativeDocumentMoniker": "TicketSales\\wwwroot\\css\\home_detail_page.css",
@@ -283,20 +572,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 21,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Views\\Home\\Detail.cshtml",
               "RelativeDocumentMoniker": "TicketSales\\Views\\Home\\Detail.cshtml",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Views\\Home\\Detail.cshtml",
               "RelativeToolTip": "TicketSales\\Views\\Home\\Detail.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-18T10:57:46.152Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 41,
               "Title": "HomeVm.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\ViewModels\\HomeVm.cs",
               "RelativeDocumentMoniker": "TicketSales\\ViewModels\\HomeVm.cs",
@@ -304,25 +593,24 @@
               "RelativeToolTip": "TicketSales\\ViewModels\\HomeVm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T08:55:47.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T08:55:47.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 34,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Views\\Ticket\\Edit.cshtml",
               "RelativeDocumentMoniker": "TicketSales\\Areas\\AdminPanel\\Views\\Ticket\\Edit.cshtml",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Views\\Ticket\\Edit.cshtml",
               "RelativeToolTip": "TicketSales\\Areas\\AdminPanel\\Views\\Ticket\\Edit.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACEAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAFkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-18T07:35:44.73Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 43,
               "Title": "TicketCreateVm.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\ViewModels\\TicketCreateVm.cs",
               "RelativeDocumentMoniker": "TicketSales\\ViewModels\\TicketCreateVm.cs",
@@ -334,19 +622,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 35,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Views\\Ticket\\Create.cshtml",
               "RelativeDocumentMoniker": "TicketSales\\Areas\\AdminPanel\\Views\\Ticket\\Create.cshtml",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Views\\Ticket\\Create.cshtml",
               "RelativeToolTip": "TicketSales\\Areas\\AdminPanel\\Views\\Ticket\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFQAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T07:15:43.112Z"
+              "WhenOpened": "2025-05-18T07:15:43.112Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 42,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Views\\Ticket\\Index.cshtml",
               "RelativeDocumentMoniker": "TicketSales\\Areas\\AdminPanel\\Views\\Ticket\\Index.cshtml",
@@ -358,20 +647,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
               "Title": "TicketController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Controllers\\TicketController.cs",
               "RelativeDocumentMoniker": "TicketSales\\Areas\\AdminPanel\\Controllers\\TicketController.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Controllers\\TicketController.cs",
               "RelativeToolTip": "TicketSales\\Areas\\AdminPanel\\Controllers\\TicketController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwB8AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T06:47:21.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 76,
               "Title": "20250518064508_UpdateTicketTable.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Migrations\\20250518064508_UpdateTicketTable.cs",
               "RelativeDocumentMoniker": "TicketSales\\Migrations\\20250518064508_UpdateTicketTable.cs",
@@ -383,7 +672,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 37,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Views\\Event\\Edit.cshtml",
               "RelativeDocumentMoniker": "TicketSales\\Areas\\AdminPanel\\Views\\Event\\Edit.cshtml",
@@ -391,12 +680,11 @@
               "RelativeToolTip": "TicketSales\\Areas\\AdminPanel\\Views\\Event\\Edit.cshtml",
               "ViewState": "AgIAADMAAAAAAAAAAAAAAD4AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T06:28:48.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T06:28:48.202Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 38,
               "Title": "EventCreateVm.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\ViewModels\\EventCreateVm.cs",
               "RelativeDocumentMoniker": "TicketSales\\ViewModels\\EventCreateVm.cs",
@@ -404,12 +692,11 @@
               "RelativeToolTip": "TicketSales\\ViewModels\\EventCreateVm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T05:49:03.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T05:49:03.009Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 74,
               "Title": "20250518054817_UpdateEventTable.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Migrations\\20250518054817_UpdateEventTable.cs",
               "RelativeDocumentMoniker": "TicketSales\\Migrations\\20250518054817_UpdateEventTable.cs",
@@ -421,7 +708,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 39,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Views\\Event\\Create.cshtml",
               "RelativeDocumentMoniker": "TicketSales\\Areas\\AdminPanel\\Views\\Event\\Create.cshtml",
@@ -429,12 +716,11 @@
               "RelativeToolTip": "TicketSales\\Areas\\AdminPanel\\Views\\Event\\Create.cshtml",
               "ViewState": "AgIAACoAAAAAAAAAAAAiwDMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T05:43:12.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T05:43:12.312Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 46,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Views\\Event\\Index.cshtml",
               "RelativeDocumentMoniker": "TicketSales\\Areas\\AdminPanel\\Views\\Event\\Index.cshtml",
@@ -446,20 +732,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "EventController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Controllers\\EventController.cs",
               "RelativeDocumentMoniker": "TicketSales\\Areas\\AdminPanel\\Controllers\\EventController.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Controllers\\EventController.cs",
               "RelativeToolTip": "TicketSales\\Areas\\AdminPanel\\Controllers\\EventController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwIoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T05:25:16.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 47,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Views\\Category\\Edit.cshtml",
               "RelativeDocumentMoniker": "TicketSales\\Areas\\AdminPanel\\Views\\Category\\Edit.cshtml",
@@ -471,7 +757,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 49,
               "Title": "CategoryCreateVm.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\ViewModels\\CategoryCreateVm.cs",
               "RelativeDocumentMoniker": "TicketSales\\ViewModels\\CategoryCreateVm.cs",
@@ -483,7 +769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 75,
               "Title": "20250518045132_CreateCategoryTable.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Migrations\\20250518045132_CreateCategoryTable.cs",
               "RelativeDocumentMoniker": "TicketSales\\Migrations\\20250518045132_CreateCategoryTable.cs",
@@ -495,7 +781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 48,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Views\\Category\\Create.cshtml",
               "RelativeDocumentMoniker": "TicketSales\\Areas\\AdminPanel\\Views\\Category\\Create.cshtml",
@@ -507,7 +793,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 50,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Models\\Category.cs",
               "RelativeDocumentMoniker": "TicketSales\\Models\\Category.cs",
@@ -519,7 +805,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 45,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Views\\Category\\Index.cshtml",
               "RelativeDocumentMoniker": "TicketSales\\Areas\\AdminPanel\\Views\\Category\\Index.cshtml",
@@ -531,20 +817,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 11,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "TicketSales\\Areas\\AdminPanel\\Controllers\\CategoryController.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "TicketSales\\Areas\\AdminPanel\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T15:42:08.45Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 51,
               "Title": "admin_panel_page.css",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\css\\admin_panel_page.css",
               "RelativeDocumentMoniker": "TicketSales\\wwwroot\\css\\admin_panel_page.css",
@@ -556,7 +842,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 40,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "TicketSales\\Areas\\AdminPanel\\Views\\Home\\Index.cshtml",
@@ -564,38 +850,37 @@
               "RelativeToolTip": "TicketSales\\Areas\\AdminPanel\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-17T15:34:32.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T15:34:32.387Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Program.cs",
               "RelativeDocumentMoniker": "TicketSales\\Program.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Program.cs",
               "RelativeToolTip": "TicketSales\\Program.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAAAFEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwCMAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T15:23:42.607Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "TicketSales\\Areas\\AdminPanel\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Controllers\\HomeController.cs",
               "RelativeToolTip": "TicketSales\\Areas\\AdminPanel\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T15:19:33.902Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 52,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "TicketSales\\Areas\\AdminPanel\\Views\\_ViewStart.cshtml",
@@ -607,7 +892,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 44,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Areas\\AdminPanel\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "TicketSales\\Areas\\AdminPanel\\Views\\_ViewImports.cshtml",
@@ -619,7 +904,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 54,
               "Title": "ResetPasswordVm.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\ViewModels\\ResetPasswordVm.cs",
               "RelativeDocumentMoniker": "TicketSales\\ViewModels\\ResetPasswordVm.cs",
@@ -631,7 +916,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 53,
               "Title": "ResetPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Views\\Account\\ResetPassword.cshtml",
               "RelativeDocumentMoniker": "TicketSales\\Views\\Account\\ResetPassword.cshtml",
@@ -643,7 +928,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 57,
               "Title": "EnterEmailVm.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\ViewModels\\EnterEmailVm.cs",
               "RelativeDocumentMoniker": "TicketSales\\ViewModels\\EnterEmailVm.cs",
@@ -655,7 +940,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 60,
               "Title": "LoginVm.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\ViewModels\\LoginVm.cs",
               "RelativeDocumentMoniker": "TicketSales\\ViewModels\\LoginVm.cs",
@@ -667,7 +952,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 61,
               "Title": "PasswordHash.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Helper\\PasswordHash.cs",
               "RelativeDocumentMoniker": "TicketSales\\Helper\\PasswordHash.cs",
@@ -679,7 +964,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 72,
               "Title": "20250516051328_UpdateUserTable.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Migrations\\20250516051328_UpdateUserTable.cs",
               "RelativeDocumentMoniker": "TicketSales\\Migrations\\20250516051328_UpdateUserTable.cs",
@@ -691,7 +976,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 65,
               "Title": "FileService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Services\\FileService.cs",
               "RelativeDocumentMoniker": "TicketSales\\Services\\FileService.cs",
@@ -703,7 +988,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 20,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "TicketSales\\Services\\EmailService.cs",
@@ -711,11 +996,12 @@
               "RelativeToolTip": "TicketSales\\Services\\EmailService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAcwB8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T04:41:41.073Z"
+              "WhenOpened": "2025-05-16T04:41:41.073Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 66,
               "Title": "IFileService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Services\\Interfaces\\IFileService.cs",
               "RelativeDocumentMoniker": "TicketSales\\Services\\Interfaces\\IFileService.cs",
@@ -727,19 +1013,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 19,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Services\\Interfaces\\IEmailService.cs",
               "RelativeDocumentMoniker": "TicketSales\\Services\\Interfaces\\IEmailService.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Services\\Interfaces\\IEmailService.cs",
               "RelativeToolTip": "TicketSales\\Services\\Interfaces\\IEmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T04:40:37.735Z"
+              "WhenOpened": "2025-05-16T04:40:37.735Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 58,
               "Title": "RegisterVm.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\ViewModels\\RegisterVm.cs",
               "RelativeDocumentMoniker": "TicketSales\\ViewModels\\RegisterVm.cs",
@@ -751,7 +1038,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 67,
               "Title": "verification_code.css",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\css\\verification_code.css",
               "RelativeDocumentMoniker": "TicketSales\\wwwroot\\css\\verification_code.css",
@@ -763,7 +1050,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 62,
               "Title": "EnterVerificationCode.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Views\\Account\\EnterVerificationCode.cshtml",
               "RelativeDocumentMoniker": "TicketSales\\Views\\Account\\EnterVerificationCode.cshtml",
@@ -775,7 +1062,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 69,
               "Title": "enter_email_page.css",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\css\\enter_email_page.css",
               "RelativeDocumentMoniker": "TicketSales\\wwwroot\\css\\enter_email_page.css",
@@ -787,7 +1074,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 56,
               "Title": "EnterEmail.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Views\\Account\\EnterEmail.cshtml",
               "RelativeDocumentMoniker": "TicketSales\\Views\\Account\\EnterEmail.cshtml",
@@ -799,7 +1086,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 68,
               "Title": "login_page.css",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\css\\login_page.css",
               "RelativeDocumentMoniker": "TicketSales\\wwwroot\\css\\login_page.css",
@@ -811,7 +1098,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 63,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "TicketSales\\Views\\Account\\Register.cshtml",
@@ -823,7 +1110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 55,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "TicketSales\\Views\\Account\\Login.cshtml",
@@ -835,7 +1122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 59,
               "Title": "AccessDenied.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Views\\Account\\AccessDenied.cshtml",
               "RelativeDocumentMoniker": "TicketSales\\Views\\Account\\AccessDenied.cshtml",
@@ -847,19 +1134,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 17,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "TicketSales\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Controllers\\AccountController.cs",
               "RelativeToolTip": "TicketSales\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAwFMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwD0AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T03:44:29.293Z"
+              "WhenOpened": "2025-05-16T03:44:29.293Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 73,
               "Title": "20250516033822_CreateAllTable.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Migrations\\20250516033822_CreateAllTable.cs",
               "RelativeDocumentMoniker": "TicketSales\\Migrations\\20250516033822_CreateAllTable.cs",
@@ -871,19 +1159,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 32,
               "Title": "Ticket.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Models\\Ticket.cs",
               "RelativeDocumentMoniker": "TicketSales\\Models\\Ticket.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Models\\Ticket.cs",
               "RelativeToolTip": "TicketSales\\Models\\Ticket.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T03:36:28.186Z"
+              "WhenOpened": "2025-05-16T03:36:28.186Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 25,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Models\\Event.cs",
               "RelativeDocumentMoniker": "TicketSales\\Models\\Event.cs",
@@ -896,7 +1185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 70,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Models\\BaseEntity.cs",
               "RelativeDocumentMoniker": "TicketSales\\Models\\BaseEntity.cs",
@@ -908,19 +1197,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 30,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Models\\AppUser.cs",
               "RelativeDocumentMoniker": "TicketSales\\Models\\AppUser.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Models\\AppUser.cs",
               "RelativeToolTip": "TicketSales\\Models\\AppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T03:31:30.975Z"
+              "WhenOpened": "2025-05-16T03:31:30.975Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 64,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\appsettings.json",
               "RelativeDocumentMoniker": "TicketSales\\appsettings.json",
@@ -932,32 +1222,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 4,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "TicketSales\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Data\\AppDbContext.cs",
               "RelativeToolTip": "TicketSales\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T03:27:57.421Z"
+              "WhenOpened": "2025-05-16T03:27:57.421Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 24,
               "Title": "home_page.css",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\css\\home_page.css",
               "RelativeDocumentMoniker": "TicketSales\\wwwroot\\css\\home_page.css",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\css\\home_page.css",
               "RelativeToolTip": "TicketSales\\wwwroot\\css\\home_page.css",
-              "ViewState": "AgIAAGQBAAAAAAAAAADwv3QBAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAG4BAAAAAAAAAADwv4EBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-05-16T03:15:21.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 71,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "TicketSales\\Views\\Shared\\_Layout.cshtml",
@@ -969,41 +1260,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "TicketSales\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "TicketSales\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEsAAABrAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAiwC0AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-16T03:10:20.796Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "TicketSales\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Controllers\\HomeController.cs",
               "RelativeToolTip": "TicketSales\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA0wBgAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAADwv1EAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T03:09:46.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 28,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "TicketSales\\Views\\_ViewImports.cshtml",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "TicketSales\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-16T03:09:40.466Z"
+              "WhenOpened": "2025-05-16T03:09:40.466Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",

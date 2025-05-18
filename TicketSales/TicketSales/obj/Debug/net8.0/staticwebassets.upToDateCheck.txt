@@ -1,4 +1,5 @@
 wwwroot\css\admin_panel_page.css
+wwwroot\css\buyticket.css
 wwwroot\css\enter_email_page.css
 wwwroot\css\home_detail_page.css
 wwwroot\css\home_page.css
@@ -9,6 +10,8 @@ wwwroot\img\59a79afb-e749-4062-b3dc-07c3b428e027OIP (9).jpeg
 wwwroot\img\7269f436-02f0-4207-883c-aa5b80f5afc7download (3).jpeg
 wwwroot\img\78ac3d31-1811-4d30-b87b-9cf7d62912a6download (3).jpeg
 wwwroot\img\a24fc015-0177-4def-b925-cd28ca93fef7OIP (8).jpeg
+wwwroot\img\bc7e97f9-1186-4183-8012-d46398eee82fOIP (10).jpeg
+wwwroot\js\buyticket.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

@@ -19,17 +19,20 @@
 
             @if (User.Identity.IsAuthenticated)
             {
-                if (User.IsInRole("Admin"))
-                {
-                    <a asp-area="AdminPanel" asp-controller="Home" asp-action="Index" class="btn login-btn">AdminPanel</a>
-                }
-                <a asp-controller="Account" asp-action="Logout" class="btn login-btn">Çıxış</a>
-
+                <div class="user-links">
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a asp-area="AdminPanel" asp-controller="Home" asp-action="Index" class="btn login-btn">AdminPanel</a>
+                    }
+                    <a asp-controller="Home" asp-action="MyTickets" class="btn login-btn">Profil</a>
+                    <a asp-controller="Account" asp-action="Logout" class="btn login-btn">Çıxış</a>
+                </div>
             }
             else
             {
                 <a asp-controller="Account" asp-action="Login" class="btn login-btn">Giriş</a>
             }
+
 
             <div class="burger">
                 <div class="line1"></div>
@@ -40,15 +43,7 @@
 
     </header>
 
-    <section class="hero">
-        <h1>Ən Yaxşı Tədbirlərin Biletləri</h1>
-        <p>Tamaşalar, konsertlər, festivallar və daha çox tədbir üçün onlayn bilet alın</p>
-        <div class="search-bar">
-            <input type="text" placeholder="Tədbir, məkan və ya tarix axtar...">
-            <button type="submit">Axtar</button>
-        </div>
-        <a href="#events" class="btn">Tədbirləri Kəşf Et</a>
-    </section>
+  
 
     <section class="container" id="events">
         <h2 class="section-title">Yaxınlaşan Tədbirlər</h2>

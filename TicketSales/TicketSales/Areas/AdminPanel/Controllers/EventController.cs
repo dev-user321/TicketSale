@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using TicketSales.Areas.AdminPanel.Repositories.Interfaces;
 using TicketSales.Data;
 using TicketSales.Models;
 using TicketSales.ViewModels;
@@ -8,18 +10,23 @@ using TicketSales.ViewModels;
 namespace TicketSales.Areas.AdminPanel.Controllers
 {
     [Area("AdminPanel")]
+    [Authorize(Roles = "Admin")]
     public class EventController : Controller
     {
+        private readonly IEventRepository _eventRepo;
         private readonly AppDbContext _context;
         private readonly IWebHostEnvironment _env;
-        public EventController(AppDbContext context,IWebHostEnvironment env)
+
+        public EventController(IEventRepository eventRepo, AppDbContext context, IWebHostEnvironment env)
         {
-            _context = context;
+            _eventRepo = eventRepo;
+            _context = context; // Still needed for ViewBag.Categories
             _env = env;
         }
+
         public IActionResult Index()
         {
-            IEnumerable<Event> events = _context.Events.Where(m=>!m.SoftDelete).Include(m=>m.Category);
+            var events = _eventRepo.GetAll();
             return View(events);
         }
 
@@ -29,51 +36,49 @@ namespace TicketSales.Areas.AdminPanel.Controllers
             ViewBag.Categories = new SelectList(_context.Categories.Where(c => !c.SoftDelete), "Id", "CategoryName");
             return View();
         }
+
         [HttpPost]
-        public IActionResult Create(EventCreateVm eventCreate)
+        public IActionResult Create(EventCreateVm model)
         {
             if (!ModelState.IsValid)
             {
-                ModelState.AddModelError("", "Zəhmət olmasa bütün sahələri doldurun.");
                 ViewBag.Categories = new SelectList(_context.Categories.Where(c => !c.SoftDelete), "Id", "CategoryName");
-
-                return View(eventCreate);
+                ModelState.AddModelError("", "Zəhmət olmasa bütün sahələri doldurun.");
+                return View(model);
             }
 
-            string fileName = Guid.NewGuid().ToString() + eventCreate.Image.FileName;
-            string path = Path.Combine(_env.WebRootPath, "img", fileName);
-            using(FileStream stream = new FileStream(path, FileMode.Create))
-            {
-                eventCreate.Image.CopyTo(stream);
-            };
+            string fileName = Guid.NewGuid() + Path.GetExtension(model.Image.FileName);
+            string filePath = Path.Combine(_env.WebRootPath, "img", fileName);
 
-            var newEvent = new Event()
+            using (var stream = new FileStream(filePath, FileMode.Create))
             {
-                Title = eventCreate.Title,
-                Description = eventCreate.Description,
-                Location = eventCreate.Location,
+                model.Image.CopyTo(stream);
+            }
+
+            var newEvent = new Event
+            {
+                Title = model.Title,
+                Description = model.Description,
+                Location = model.Location,
                 ImageLink = fileName,
-                CategoryId = eventCreate.CategoryId,
-                CreatedDate = eventCreate.Created
-                
+                CategoryId = model.CategoryId,
+                CreatedDate = model.Created
             };
 
-            _context.Events.Add(newEvent);
-            _context.SaveChanges();
+            _eventRepo.Add(newEvent);
+            _eventRepo.Save();
 
             return RedirectToAction("Index");
         }
+
         [HttpGet]
         public IActionResult Delete(int id)
         {
-            var evt = _context.Events.FirstOrDefault(c => c.Id == id && !c.SoftDelete);
-            if (evt == null)
-            {
-                return NotFound();
-            }
+            var evt = _eventRepo.GetById(id);
+            if (evt == null) return NotFound();
 
-            evt.SoftDelete = true;
-            _context.SaveChanges();
+            _eventRepo.SoftDelete(evt);
+            _eventRepo.Save();
 
             return RedirectToAction("Index");
         }
@@ -81,29 +86,27 @@ namespace TicketSales.Areas.AdminPanel.Controllers
         [HttpGet]
         public IActionResult Edit(int id)
         {
-            var evt = _context.Events.FirstOrDefault(c => c.Id == id && !c.SoftDelete);
+            var evt = _eventRepo.GetById(id);
+            if (evt == null) return NotFound();
+
             ViewBag.Categories = new SelectList(_context.Categories.Where(c => !c.SoftDelete), "Id", "CategoryName");
-            var oldEvt = new EventCreateVm()
+
+            var model = new EventCreateVm
             {
                 Title = evt.Title,
                 Description = evt.Description,
                 Location = evt.Location,
-                CategoryId = evt.CategoryId,
-                //ImageLink = evt.ImageLink,
+                CategoryId = evt.CategoryId
             };
 
-            return View(oldEvt);
+            return View(model);
         }
 
         [HttpPost]
         public IActionResult Edit(int id, EventCreateVm model)
         {
-       
-            var evt = _context.Events.FirstOrDefault(c => c.Id == id && !c.SoftDelete);
-            if (evt == null)
-            {
-                return NotFound();
-            }
+            var evt = _eventRepo.GetById(id);
+            if (evt == null) return NotFound();
 
             evt.Title = model.Title;
             evt.Description = model.Description;
@@ -120,6 +123,7 @@ namespace TicketSales.Areas.AdminPanel.Controllers
 
                 string newFileName = Guid.NewGuid() + Path.GetExtension(model.Image.FileName);
                 string newImagePath = Path.Combine(_env.WebRootPath, "img", newFileName);
+
                 using (FileStream stream = new FileStream(newImagePath, FileMode.Create))
                 {
                     model.Image.CopyTo(stream);
@@ -127,12 +131,10 @@ namespace TicketSales.Areas.AdminPanel.Controllers
 
                 evt.ImageLink = newFileName;
             }
-            else
-            {
-                evt.ImageLink = evt.ImageLink;
-            }
 
-            _context.SaveChanges();
+            _eventRepo.Update(evt);
+            _eventRepo.Save();
+
             return RedirectToAction("Index");
         }
 

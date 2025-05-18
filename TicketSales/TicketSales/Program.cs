@@ -1,5 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authentication.Cookies;
+using TicketSales.Areas.AdminPanel.Repositories;
+using TicketSales.Areas.AdminPanel.Repositories.Interfaces;
 using TicketSales.Data;
+using TicketSales.Middleware;
 using TicketSales.Services;
 using TicketSales.Services.Interfaces;
 
@@ -44,6 +47,9 @@ namespace TicketSales
             // Custom services
             builder.Services.AddScoped<IEmailService, EmailService>();
             builder.Services.AddScoped<IFileService, FileService>();
+            builder.Services.AddScoped<ITicketRepository,TicketRepository>();
+            builder.Services.AddScoped<IEventRepository, EventRepository>();
+            builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();  
 
             var app = builder.Build();
 
@@ -59,14 +65,13 @@ namespace TicketSales
 
             app.UseRouting();
 
-            // Enable session before authentication
+            app.UseMiddleware<ExceptionLoggingMiddleware>();
+
             app.UseSession();
 
             app.UseAuthentication();
             app.UseAuthorization();
 
-            // Routes
-            // Area üçün route əvvəl gəlməlidir
             app.MapControllerRoute(
                 name: "areas",
                 pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
