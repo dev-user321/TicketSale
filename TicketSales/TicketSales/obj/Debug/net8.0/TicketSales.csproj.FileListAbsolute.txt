@@ -266,3 +266,4 @@ C:\Users\Lenovo\Desktop\AspNet-Quiz\TicketSales\TicketSales\TicketSales\obj\Debu
 C:\Users\Lenovo\Desktop\AspNet-Quiz\TicketSales\TicketSales\TicketSales\obj\Debug\net8.0\TicketSales.pdb
 C:\Users\Lenovo\Desktop\AspNet-Quiz\TicketSales\TicketSales\TicketSales\obj\Debug\net8.0\TicketSales.genruntimeconfig.cache
 C:\Users\Lenovo\Desktop\AspNet-Quiz\TicketSales\TicketSales\TicketSales\obj\Debug\net8.0\ref\TicketSales.dll
+C:\Users\Lenovo\Desktop\AspNet-Quiz\TicketSales\TicketSales\TicketSales\obj\Debug\net8.0\TicketSales.sourcelink.json

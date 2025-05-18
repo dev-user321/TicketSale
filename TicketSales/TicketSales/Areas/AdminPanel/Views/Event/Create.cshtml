@@ -1,0 +1,97 @@
+﻿@model EventCreateVm
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Admin Panel</title>
+    <link rel="stylesheet" href="~/css/admin_panel_page.css" />
+</head>
+<body>
+    <div class="sidebar">
+        <div class="brand">
+            <div class="brand-icon"></div>
+            <span>AdminPanel</span>
+        </div>
+        <div class="menu">
+            <div class="menu-category">Main</div>
+            <a asp-area="AdminPanel" asp-controller="Home" asp-action="Index" class="menu-item active">
+                <div class="menu-icon">📊</div>
+                <span>Dashboard</span>
+            </a>
+            <a href="#" class="menu-item">
+                <div class="menu-icon">👥</div>
+                <span>Users</span>
+            </a>
+            <a asp-area="AdminPanel" asp-controller="Category" asp-action="Index" class="menu-item">
+                <div class="menu-icon">📦</div>
+                <span>Categories</span>
+            </a>
+            <a asp-area="AdminPanel" asp-controller="Event" asp-action="Index" class="menu-item">
+                <div class="menu-icon">📝</div>
+                <span>Events</span>
+            </a>
+
+
+            <a asp-area="" asp-controller="Home" asp-action="Index" class="menu-item">
+                <div class="menu-icon">🚪</div>
+                <span>Logout</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="top-bar">
+            <h1 class="page-title">Category Table</h1>
+            <div class="user-profile">
+                <div class="user-avatar">AM</div>
+                <div class="user-info">
+                    <div class="user-name">Admin</div>
+                    <div class="user-role">Administrator</div>
+                </div>
+            </div>
+        </div>
+
+
+        <form asp-area="AdminPanel" asp-controller="Event" asp-action="Create" method="post" enctype="multipart/form-data" style="padding: 20px;">
+            <h2 class="section-title">Yeni Event Yarat</h2>
+
+            <div style="margin-bottom: 15px;">
+                <label for="Title">Title:</label><br />
+                <input type="text" asp-for="Title" style="width: 100%; padding: 8px;" required />
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <label for="Description">Description:</label><br />
+                <textarea asp-for="Description" rows="4" style="width: 100%; padding: 8px;" required></textarea>
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <label for="Location">Location:</label><br />
+                <input type="text" asp-for="Location" style="width: 100%; padding: 8px;" required />
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <label asp-for="CategoryId"></label><br />
+                <select asp-for="CategoryId" asp-items="ViewBag.Categories" style="width: 100%; padding: 8px;" required></select>
+            </div>
+
+
+            <div style="margin-bottom: 15px;">
+                <label for="Image">Şəkil seçin:</label><br />
+                <input type="file" asp-for="Image" accept="image/*" style="padding: 8px;" />
+            </div>
+
+            <button type="submit" style="padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px;">
+                Yarat
+            </button>
+        </form>
+
+
+
+    </div>
+</body>
+</html>

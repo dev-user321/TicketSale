@@ -1,0 +1,67 @@
+﻿@model CategoryCreateVm
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Admin Panel</title>
+    <link rel="stylesheet" href="~/css/admin_panel_page.css" />
+</head>
+<body>
+    <div class="sidebar">
+        <div class="brand">
+            <div class="brand-icon"></div>
+            <span>AdminPanel</span>
+        </div>
+        <div class="menu">
+            <div class="menu-category">Main</div>
+            <a asp-area="AdminPanel" asp-controller="Home" asp-action="Index" class="menu-item active">
+                <div class="menu-icon">📊</div>
+                <span>Dashboard</span>
+            </a>
+            <a href="#" class="menu-item">
+                <div class="menu-icon">👥</div>
+                <span>Users</span>
+            </a>
+            <a asp-area="AdminPanel" asp-controller="Category" asp-action="Index" class="menu-item">
+                <div class="menu-icon">📦</div>
+                <span>Categories</span>
+            </a>
+            <a asp-area="AdminPanel" asp-controller="Event" asp-action="Index" class="menu-item">
+                <div class="menu-icon">📝</div>
+                <span>Events</span>
+            </a>
+            <a asp-area="" asp-controller="Home" asp-action="Index" class="menu-item">
+                <div class="menu-icon">🚪</div>
+                <span>Logout</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="top-bar">
+            <h1 class="page-title">Category Table</h1>
+            <div class="user-profile">
+                <div class="user-avatar">AM</div>
+                <div class="user-info">
+                    <div class="user-name">Admin</div>
+                    <div class="user-role">Administrator</div>
+                </div>
+            </div>
+        </div>
+
+        <div style="padding: 20px;">
+            <form asp-area="AdminPanel" asp-controller="Category" asp-action="Create" method="post" style="display: flex; flex-direction: column; max-width: 300px;">
+                <label for="CategoryName">Category Name:</label>
+                <input type="text" asp-for="CategoryName" required style="padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;">
+                <span asp-validation-for="CategoryName"></span>
+                <button type="submit" style="padding: 10px; border-radius: 5px; background-color: #4CAF50; color: white; border: none;">Add Category</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
