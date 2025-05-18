@@ -4,6 +4,7 @@ wwwroot\css\home_page.css
 wwwroot\css\login_page.css
 wwwroot\css\verification_code.css
 wwwroot\favicon.ico
+wwwroot\img\7269f436-02f0-4207-883c-aa5b80f5afc7download (3).jpeg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

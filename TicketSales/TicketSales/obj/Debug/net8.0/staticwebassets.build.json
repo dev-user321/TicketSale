@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "o4RGhGlcq3IY6u9UnJ8Rb+Ocpl5a/C/Uh8z6fuhr5BA=",
+  "Hash": "eVNFMV9A7LGapuLA+C+2xfwIiXZEhKyE1CoCnpz+3Mg=",
   "Source": "TicketSales",
   "BasePath": "_content/TicketSales",
   "Mode": "Default",
@@ -183,6 +183,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\img\\7269f436-02f0-4207-883c-aa5b80f5afc7download (3).jpeg",
+      "SourceId": "TicketSales",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\",
+      "BasePath": "_content/TicketSales",
+      "RelativePath": "img/7269f436-02f0-4207-883c-aa5b80f5afc7download (3)#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "low292scxs",
+      "Integrity": "9cKPXZIyqVIMpwOBm6AOKwwQ4udvGBsuXObMEoaplqw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\7269f436-02f0-4207-883c-aa5b80f5afc7download (3).jpeg"
     },
     {
       "Identity": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\js\\site.js",
@@ -1893,6 +1914,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "img/7269f436-02f0-4207-883c-aa5b80f5afc7download (3).jpeg",
+      "AssetFile": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\img\\7269f436-02f0-4207-883c-aa5b80f5afc7download (3).jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9cKPXZIyqVIMpwOBm6AOKwwQ4udvGBsuXObMEoaplqw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 06:20:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9cKPXZIyqVIMpwOBm6AOKwwQ4udvGBsuXObMEoaplqw="
+        }
+      ]
+    },
+    {
+      "Route": "img/7269f436-02f0-4207-883c-aa5b80f5afc7download (3).low292scxs.jpeg",
+      "AssetFile": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\TicketSales\\TicketSales\\TicketSales\\wwwroot\\img\\7269f436-02f0-4207-883c-aa5b80f5afc7download (3).jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9cKPXZIyqVIMpwOBm6AOKwwQ4udvGBsuXObMEoaplqw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 06:20:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "low292scxs"
+        },
+        {
+          "Name": "label",
+          "Value": "img/7269f436-02f0-4207-883c-aa5b80f5afc7download (3).jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9cKPXZIyqVIMpwOBm6AOKwwQ4udvGBsuXObMEoaplqw="
         }
       ]
     },

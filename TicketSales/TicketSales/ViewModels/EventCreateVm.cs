@@ -14,5 +14,6 @@ namespace TicketSales.ViewModels
         public IFormFile Image { get; set; }
         [Required]
         public int CategoryId { get; set; }
+        public string ImageLink { get; set; }
     }
 }

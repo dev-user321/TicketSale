@@ -1,7 +1,8 @@
-﻿@model EventCreateVm
+﻿@model TicketCreateVm
 @{
     Layout = null;
 }
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,41 +57,39 @@
         </div>
 
 
-        <form asp-area="AdminPanel" asp-controller="Event" asp-action="Create" method="post" enctype="multipart/form-data" style="padding: 20px;">
-            <h2 class="section-title">Yeni Event Yarat</h2>
-
-            <div style="margin-bottom: 15px;">
-                <label for="Title">Title:</label><br />
-                <input type="text" asp-for="Title" style="width: 100%; padding: 8px;" required />
-            </div>
-
-            <div style="margin-bottom: 15px;">
-                <label for="Description">Description:</label><br />
-                <textarea asp-for="Description" rows="4" style="width: 100%; padding: 8px;" required></textarea>
-            </div>
-
-            <div style="margin-bottom: 15px;">
-                <label for="Location">Location:</label><br />
-                <input type="text" asp-for="Location" style="width: 100%; padding: 8px;" required />
-            </div>
-
-            <div style="margin-bottom: 15px;">
-                <label asp-for="CategoryId"></label><br />
-                <select asp-for="CategoryId" asp-items="ViewBag.Categories" style="width: 100%; padding: 8px;" required></select>
-            </div>
+        <div class="form-container" style="padding: 20px;">
+            <form asp-area="AdminPanel" asp-controller="Ticket" asp-action="Edit" method="post" enctype="multipart/form-data">
+                <div style="margin-bottom: 15px;">
+                    <label asp-for="EventId"></label><br />
+                    <select asp-for="EventId" asp-items="ViewBag.Events" style="width: 100%; padding: 8px;" required></select>
+                </div>
 
 
-            <div style="margin-bottom: 15px;">
-                <label for="Image">Şəkil seçin:</label><br />
-                <input type="file" asp-for="Image" accept="image/*" style="padding: 8px;" />
-            </div>
+                <div style="margin-bottom: 15px;">
+                    <label asp-for="SeatCount">Bilet Növü:</label><br />
+                    <select asp-for="SeatCount" style="width: 100%; padding: 8px;" required>
+                        <option disabled selected>Seçin</option>
+                        <option value="VIP">VIP</option>
+                        <option value="Standart +">Standart +</option>
+                        <option value="Standart">Standart</option>
+                    </select>
+                </div>
 
-            <button type="submit" style="padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px;">
-                Yarat
-            </button>
-        </form>
+                <div style="margin-bottom: 15px;">
+                    <label for="Price">Qiymət:</label><br />
+                    <input type="number" asp-for="Price" min="0" required step="0.01" style="width: 100%; padding: 8px;" />
+                </div>
 
+                <div style="margin-bottom: 15px;">
+                    <label for="TotalCount">Ümumi Say:</label><br />
+                    <input type="number" asp-for="TotalCount" min="1" required style="width: 100%; padding: 8px;" />
+                </div>
 
+                <button type="submit" style="background-color: black; color: white; padding: 10px 20px; border: none; border-radius: 5px;">
+                    Deyis
+                </button>
+            </form>
+        </div>
 
     </div>
 </body>

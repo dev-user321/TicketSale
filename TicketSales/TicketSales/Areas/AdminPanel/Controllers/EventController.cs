@@ -59,5 +59,78 @@ namespace TicketSales.Areas.AdminPanel.Controllers
 
             return RedirectToAction("Index");
         }
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            var evt = _context.Events.FirstOrDefault(c => c.Id == id && !c.SoftDelete);
+            if (evt == null)
+            {
+                return NotFound();
+            }
+
+            evt.SoftDelete = true;
+            _context.SaveChanges();
+
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            var evt = _context.Events.FirstOrDefault(c => c.Id == id && !c.SoftDelete);
+            ViewBag.Categories = new SelectList(_context.Categories.Where(c => !c.SoftDelete), "Id", "CategoryName");
+            var oldEvt = new EventCreateVm()
+            {
+                Title = evt.Title,
+                Description = evt.Description,
+                Location = evt.Location,
+                CategoryId = evt.CategoryId,
+                ImageLink = evt.ImageLink,
+            };
+
+            return View(oldEvt);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(int id, EventCreateVm model)
+        {
+       
+            var evt = _context.Events.FirstOrDefault(c => c.Id == id && !c.SoftDelete);
+            if (evt == null)
+            {
+                return NotFound();
+            }
+
+            evt.Title = model.Title;
+            evt.Description = model.Description;
+            evt.Location = model.Location;
+            evt.CategoryId = model.CategoryId;
+
+            if (model.Image != null)
+            {
+                string oldImagePath = Path.Combine(_env.WebRootPath, "img", evt.ImageLink ?? "");
+                if (System.IO.File.Exists(oldImagePath))
+                {
+                    System.IO.File.Delete(oldImagePath);
+                }
+
+                string newFileName = Guid.NewGuid() + Path.GetExtension(model.Image.FileName);
+                string newImagePath = Path.Combine(_env.WebRootPath, "img", newFileName);
+                using (FileStream stream = new FileStream(newImagePath, FileMode.Create))
+                {
+                    model.Image.CopyTo(stream);
+                }
+
+                evt.ImageLink = newFileName;
+            }
+            else
+            {
+                evt.ImageLink = evt.ImageLink;
+            }
+
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
     }
 }

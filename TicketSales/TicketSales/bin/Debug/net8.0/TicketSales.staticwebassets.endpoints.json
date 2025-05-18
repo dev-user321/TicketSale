@@ -577,6 +577,88 @@
       ]
     },
     {
+      "Route": "img/7269f436-02f0-4207-883c-aa5b80f5afc7download (3).jpeg",
+      "AssetFile": "img/7269f436-02f0-4207-883c-aa5b80f5afc7download (3).jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9cKPXZIyqVIMpwOBm6AOKwwQ4udvGBsuXObMEoaplqw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 06:20:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9cKPXZIyqVIMpwOBm6AOKwwQ4udvGBsuXObMEoaplqw="
+        }
+      ]
+    },
+    {
+      "Route": "img/7269f436-02f0-4207-883c-aa5b80f5afc7download (3).low292scxs.jpeg",
+      "AssetFile": "img/7269f436-02f0-4207-883c-aa5b80f5afc7download (3).jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9cKPXZIyqVIMpwOBm6AOKwwQ4udvGBsuXObMEoaplqw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 06:20:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "low292scxs"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9cKPXZIyqVIMpwOBm6AOKwwQ4udvGBsuXObMEoaplqw="
+        },
+        {
+          "Name": "label",
+          "Value": "img/7269f436-02f0-4207-883c-aa5b80f5afc7download (3).jpeg"
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "js/site.js",
       "Selectors": [],
